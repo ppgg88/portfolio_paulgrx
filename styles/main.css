@@ -1,3 +1,24 @@
 .navbar{
     padding-left: 1vw;
 }
+
+.card-oeuvre{
+    display: none !important;
+}
+.card-img:hover + .card-oeuvre {
+    display: block !important;
+}
+.card-oeuvre:hover +.card-img{
+    display: block !important;
+}
+.card-img:hover{
+    display: block !important;
+}
+
+
+.card{
+    border: none;
+}
+.card:hover{
+    border: 1px solid rgba(0,0,0,.125)!important;
+}

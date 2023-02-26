@@ -9,12 +9,12 @@
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="width: 100%;">
             <a class="navbar-brand" href="#">My Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav" >
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Accueil</a>
@@ -29,10 +29,10 @@
             </div>
         </nav>
 
-        <div class="container-fluid">
+        <div class="container-fluid pt-5">
             <!-- Top -->
             <div class="row">
-                <div class="col-11">
+                <div class="col-11 bg-light">
                     <div class="jumbotron p-4">
                         <div class="row">
                             <div class="col-md-2">
@@ -48,55 +48,134 @@
                         </div>
                     </div>
                     <!-- Section des projets -->
-                    <section class="container">
-                        <h2>Mes projets</h2>
+                    <div class="container">
                         <div class="row">
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="img/projet1.jpg" class="card-img-top" alt="Projet 1">
-                                <div class="card-body">
-                                    <h5 class="card-title">Projet 1</h5>
-                                    <p class="card-text">Description du projet 1.</p>
-                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                            <div class="col-12">
+                                <h2 class="text-center">Somes Projets</h2>
+                                <hr>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card mb-2">
+                                        <img src="img/inmoov.jpg" class="card-img-top card-img" alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img">InMoov : Hugo</h5>
+                                            <p class="justify-content card-texte card-img "></p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card mb-2">
+                                        <img src="img/edt.png" class="card-img-top card-img " alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img">Timetable software</h5>
+                                            <p class="justify-content card-texte card-img "></p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card mb-2">
+                                        <img src="img/jardin.jpg" class="card-img-top card-img " alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img">Controlled irrigation</h5>
+                                            <p class="justify-content card-texte card-img "></p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card text-center">
+                                    <div class="card mb-2">
+                                        <img src="img/bateau.jpg" class="card-img-top card-img mx-auto d-flex" alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img"></h5>
+                                            <p class="justify-content card-texte card-img "></p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card mb-2">
+                                        <img src="img/poulailler.jpg" class="card-img-top card-img " alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img"></h5>
+                                            <p class="justify-content card-texte card-img "></p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card mb-2">
+                                        <img src="img/folimotte.jpg" class="card-img-top card-img " alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img"></h5>
+                                            <p class="justify-content card-texte card-img "></p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card text-center">
+                                    <div class="card mb-2">
+                                        <img src="img/mathclav.png" class="card-img-top card-img mx-auto d-flex" alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img"></h5>
+                                            <p class="justify-content card-texte card-img ">MathClav</p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card mb-2">
+                                        <img src="img/drone.jpg" class="card-img-top card-img " alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img"></h5>
+                                            <p class="justify-content card-texte card-img "></p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card mb-2">
+                                        <img src="img/autosound.jpg" class="card-img-top card-img " alt="A humanoid Robot"  data-toggle="tooltip" id="tooltipImage">
+                                        <div class="justify-content card-body card-oeuvre card-img">
+                                            <h5 class="card-title card-img"></h5>
+                                            <p class="justify-content card-texte card-img "></p>
+                                                <a href="project/inmoov.html" class="btn btn-primary card-img">See More !</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                            <img src="img/projet2.jpg" class="card-img-top" alt="Projet 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Projet 2</h5>
-                                <p class="card-text">Description du projet 2.</p>
-                                <a href="#" class="btn btn-primary">En savoir plus</a>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                            <img src="img/projet3.jpg" class="card-img-top" alt="Projet 3">
-                            <div class="card-body">
-                                <h5 class="card-title">Projet 3</h5>
-                                <p class="card-text">Description du projet 3.</p>
-                                <a href="#" class="btn btn-primary">En savoir plus</a>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </section>
+                    </div>           
                 </div>
                 <div class="col-1 bg-secondary  text-center pt-4">
-                    <github-card data-user="ppgg88"></github-card>
-                    <linkedin-card data-user="ppgg88"></linkedin-card>
-                    <instagram-card data-user="ppgg88"></github-card>
+                    <div style="position: fixed">
+                        <github-card data-user="ppgg88"></github-card>
+                        <linkedin-card data-user="ppgg88"></linkedin-card>
+                        <instagram-card data-user="ppgg88"></github-card>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Footer -->
         <footer class="bg-dark text-center text-white py-3">
-            <p>Tous droits réservés &copy; 2023 | Mon Portfolio Robotique</p>
+            <p>all rights reserved &copy; 2023 | Portfolio Paul Giroux</p>
         </footer>
 
         <!-- Scripts -->
+        <script>
+            $(document).ready(function() {
+              $('#project-carousel').carousel({
+                interval: 3000
+              });
+            });
+        </script>
+          
         <script src="widget/github_card.js" type="module"></script>
         <script src="widget/linkedin_card.js" type="module"></script>
         <script src="widget/instagram_card.js" type="module"></script>
