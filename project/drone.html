@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hugo InMoov</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles/main.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="width: 100%;">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link  text-light" href="../">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Projets
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="project/inmoov.html">InMoov : a humanoid robot</a></li>
+                          <li><a class="dropdown-item" href="project/drone.html">Drone conception</a></li>
+                          <li><a class="dropdown-item" href="project/folimotte.html">folimotte</a></li>
+                          <li><a class="dropdown-item" href="#">Timetable software</a></li>
+                          <li><a class="dropdown-item" href="#">MathClav software</a></li>
+                          <li><a class="dropdown-item" href="#">Controlled irrigation</a></li>
+                          <li><a class="dropdown-item" href="#">Automatic chicken coop</a></li>
+                          <li><a class="dropdown-item" href="#">Disabled person's follower</a></li>
+                          <li><a class="dropdown-item" href="#">Radio Controlled Boat</a></li>
+                          <li><a class="dropdown-item" href="#">Wind turbine</a></li>
+                          <li><a class="dropdown-item" href="#">Light Desk</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid pt-5">
+            <!-- Top -->
+            <div class="row">
+                <div class="col-11 bg-light">
+                    <!--comptenue de la page-->
+                    <div class="container pt-3">
+                        <div class="row">
+                            <div class="col-10">
+                                <h1>Drone conception : Dassault UAV Chalenge</h1>
+                                <p>Team leader of the school's drone team and vice-president of the robotics association participating in the national drone and robot championship. I am in charge of mechanical conception of the drone</p>
+                                <p>The Drone is made of 3D printed parts and controled by pixhawk. Actualy just pilot by remote, they must be autonomous before end of the years.</p>
+                                <hr/>
+                            </div>
+                            <div class="col-2">
+                                <a class="btn btn-outline-dark mt-3" style="width:100%" href="https://myhub.autodesk360.com/ue2a2ce48/g/shares/SH9285eQTcf875d3c5399ba597933889a6be">3D Model</a>
+                                <a class="btn btn-outline-dark mt-3" style="width:100%" href="https://www.instagram.com/hugo_inmoov/">Championship Reports</a>
+                            </div>
+                        </div>
+                        <!--carouselle de photo d'inmoov-->
+                        <div id="carouselControls" class="carousel slide" data-ride="carousel" data-mdb-interval="1000">
+                            <div class="carousel-inner">
+                                <!--item 1-->
+                                <div class="carousel-item active">
+                                    <div class="row w-75" style="margin-left: 12.5%;">
+                                        <div class="col-4">
+                                            <img src="../img/drone/drone.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="../img/drone/drone_valrob_open.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="../img/drone/assemblages_global v34.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- il n'y as qu'une slide on ne met pas les btn
+                            <a class="carousel-control-prev text-dark" href="#carouselControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next text-dark" href="#carouselControls" role="button" data-slide="next">
+                                <span class="sr-only">Next</span>
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                            -->
+                        </div>
+                        <!--fin de la carouselle-->
+                        <hr/>
+                        <h2 class="fw-bold">Flight Test : </h2>
+                        <iframe class="d-block mx-auto" width="560" height="315" src="https://www.youtube.com/embed/3U2Bk0GYaD0?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <hr/>
+                    </div>
+                </div>
+                <div class="col-1 bg-secondary  text-center pt-4">
+                    <div style="position: fixed">
+                        <github-card data-user="ppgg88"></github-card>
+                        <linkedin-card data-user="ppgg88"></linkedin-card>
+                        <instagram-card data-user="ppgg88"></github-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white py-3">
+            <p>all rights reserved &copy; 2023 | Portfolio Paul Giroux</p>
+        </footer>
+
+        <!-- script -->
+        <script src="../widget/github_card.js" type="module"></script>
+        <script src="../widget/linkedin_card.js" type="module"></script>
+        <script src="../widget/instagram_card.js" type="module"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+            
+        </script>
+    </body>
+</html>
+
