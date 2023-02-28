@@ -52,6 +52,9 @@ else{
                     <li class="nav-item">
                         <a class="nav-link  text-light" href="contact.html">Contact</a>
                     </li>
+                    <li class="nav-item m-3 mb-0 mt-0">
+                        <a class="nav-link  text-light" href="support.html">supporting documents</a>
+                    </li>
                 </ul>
             </div>
         </nav>
