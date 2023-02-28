@@ -65,7 +65,7 @@ else{
                 <div class="col-11 bg-light">
                     <iframe class="mt-4" src="<?php echo $files; ?>#toolbar=0" width="100%" height="500px"> </iframe>
                 </div>
-                <div class="col-1 bg-secondary  text-center pt-4">
+                <div class="col-sm-1 bg-secondary  text-center pt-4">
                     <div style="position: fixed">
                         <github-card data-user="ppgg88"></github-card>
                         <linkedin-card data-user="ppgg88"></linkedin-card>
