@@ -17,6 +17,13 @@ else{
         <title><?php echo $name; ?></title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/main.css">
+
+        <style>
+            body {
+                height: 100vh;
+            }
+        </style>
+
     </head>
     <body>
         <!-- Navbar -->
@@ -32,7 +39,7 @@ else{
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Projects
+                            Projects
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="project/inmoov.html">InMoov : A humanoid robot</a></li>
@@ -47,8 +54,9 @@ else{
                             <li><a class="dropdown-item" href="project/wind.html">Wind turbine</a></li>
                             <li><a class="dropdown-item" href="project/desk.html">Light Desk</a></li>
                             <li><a class="dropdown-item" href="project/autosound.html">AutoSound</a></li>
+                            <li><a class="dropdown-item" href="Exolegend.html">Exolegend 1 & 2</a></li>
                         </ul>
-                      </li>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link  text-light" href="contact.html">Contact</a>
                     </li>
@@ -62,10 +70,10 @@ else{
         <div class="container-fluid pt-5">
             <!-- Top -->
             <div class="row">
-                <div class="col bg-light">
-                    <iframe class="mt-4" src="<?php echo $files; ?>#toolbar=0" width="100%" height="500px"> </iframe>
+            <div class="col bg-light" height="86vh" style="height: 86vh;">
+                    <iframe class="mt-4" src="<?php echo($files); ?>#toolbar=0" width="100%" height="93%"> </iframe>
                 </div>
-                <div class="col-auto bg-secondary text-center pt-4">
+                <div class="col-auto bg-secondary text-center pt-4 carte">
                     <div style="position: fixed; right: 0.7em;">
                         <github-card data-user="ppgg88"></github-card>
                         <linkedin-card data-user="ppgg88"></linkedin-card>
